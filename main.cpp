@@ -26,7 +26,7 @@ int main()
         }
         bool flipAmPm = false;
         if (hoursFromNowLeft <= 12 && hoursFromNowLeft % 24 != 0) flipAmPm = true;
-        int targetTime = (currentTime + hoursFromNowLeft) - 24;
+        int targetTime = (currentTime + hoursFromNowLeft) - 24; // Needs checking
 
         bool singularHour = false;
         bool singularDay = false;
